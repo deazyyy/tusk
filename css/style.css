@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+ @font-face {
+     font-family: 'Arial';
+     src:url('../fonts/ARIAL.woff') format('woff');
+}
+ @font-face {
+     font-family: 'Rikabrush';
+     src:url('../fonts/Rikabrush.ttf') format('truetype');
+}
+ *{
+     margin:0;
+     padding:0;
+     text-decoration:none;
+     list-style:none;
+     font-family: "Comic Sans MS";
+}
+/* Scroll Bar Css Starts */
+ ::-webkit-scrollbar {
+     width: 8px;
+}
+ ::-webkit-scrollbar-track {
+     background-color: #ffffff;
+     -webkit-box-shadow: inset 1px 1px 1px 1px rgba(0, 0, 0, 0.15);
+     box-shadow: inset 1px 1px 1px 1px rgba(0, 0, 0, 0.15);
+}
+ ::-webkit-scrollbar-thumb {
+     border-radius: 0;
+     background: #292929;
+     border: 2px solid #ffffff;
+     width: 8px;
+}
+ ::-webkit-scrollbar-thumb:active {
+     border-radius: 0px;
+     background: #616161;
+}
+/* Scroll Bar Css Ends */
+/*Comman Css*/
+ a:hover, a:focus, a:active{
+     text-decoration: none;
+}
+ ol, ul{
+     margin: 0;
+     padding: 0;
+}
+ img{
+     display: block;
+}
+ body{
+     font-size: 14px;
+     font-weight: normal;
+     font-family: "Comic Sans MS";
+     color: #fff;
+     text-decoration: none;
+     scroll-behavior: smooth;
+     background-repeat: no-repeat;
+     background-size: cover;
+     min-height: 100vh;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     position: relative;
+}
+ .home_page{
+     background: url("../images/BG.png");
+}
+ .presale_page{
+     background: url("../images/BG2.png");
+}
+ p{
+     font-size: 18px;
+     font-weight: normal;
+     color: #535b65;
+     line-height: 34px;
+}
+ .tuskimg{
+     width: 40%;
+     display: block;
+     margin: auto;
+     margin-top: 50px;
+}
+ .presaleimg{
+     position: absolute;
+     bottom: 0;
+     left: 50%;
+     transform:translateX(-50%);
+     width: 70%;
+     max-width: 700px;
+     display: block;
+     margin: auto;
+     z-index: 5 
+}
+ .mynav{
+     position: absolute;
+     left: 0;
+     top: 0;
+     padding-top: 15%;
+     width: 100%;
+     max-width: 400px;
+     height: 100%;
+     z-index: 12;
+}
+ .nav-item{
+     background: url("../images/navbg.png");
+     background-repeat: no-repeat;
+     cursor: pointer;
+     background-position: right;
+     padding: 30px 50px 30px;
+     position: relative;
+     margin-bottom: 20px;
+}
+ .nav-item::before{
+     position: absolute;
+     content: " ";
+     top: 0px;
+     left: 0px;
+     height: 100%;
+     width: calc(100% + 6px);
+     background: url("../images/navbghover.png");
+     background-repeat: no-repeat;
+     background-position: right;
+     transform: translateY(10px);
+     z-index: -1;
+     transition: all 0.3s ease 
+}
+ .nav-item:hover::before{
+     width: calc(100% + 2px);
+     transform: translateY(4px);
+}
+ .nav-item a{
+     color: #fff;
+     text-transform: uppercase;
+     font-size: 20px;
+     font-family: 'Comic Sans MS', arial;
+}
+ .social-icon{
+     display: flex;
+     margin: 10px 14px;
+}
+ .social-icon img{
+     width: 60px;
+     margin: 10px;
+     cursor: pointer;
+}
+ footer{
+     position: relative;
+     border-top: 4px solid #3b2c66 
+}
+ .price_box{
+     z-index: 10;
+     width: 100%;
+     max-width: 300px;
+     padding: 6px 10px;
+     background: #3b2c66;
+     position: absolute;
+     right: 0;
+     transform: translateY(-100%);
+}
+ .price_box div{
+     font-family: 'Comic Sans MS', arial !important;
+}
+/* presale */
+ .presaletext{
+     height: 80px;
+     display: block;
+     margin: auto;
+     margin-bottom: 40px;
+     margin-top: 60px;
+}
+ .presale_page{
+     background: url("../images/BG2.png");
+     position: relative;
+}
+ .conectbtn{
+     height: 50px;
+     width: auto;
+     cursor: pointer;
+     margin: 14px;
+     display: flex;
+     justify-content: flex-end;
+     margin-bottom: 30px;
+    /* width: calc(100vw - 28px);
+    */
+}
+ .presale_page .main-wrapper{
+     background-image: url("../images/horsel.png"), url("../images/horser.png");
+     background-position:3% center, 97% center;
+     background-repeat: no-repeat, no-repeat;
+     background-size: 400px , 400px;
+     min-height: 100vh;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+    /*align-items: center;
+    */
+}
+
+ .pertuskinfo{
+     border-radius: 8px;
+     background-color: #3b2c66;
+     padding: 18px 38px;
+     font-size: 18px;
+     color: #9bfe65;
+     font-weight: bold;
+     font-family: "Comic Sans MS";
+     width: fit-content;
+     margin: auto;
+     background-image: url("../images/chandr.png"), url("../images/chandl.png");
+     background-position:3% center, 97% center;
+     background-repeat: no-repeat, no-repeat;
+     background-size: 20px , 20px;
+     margin-top: 20px;
+}
+ .inputbxouter{
+     display: flex;
+     align-items: center;
+     color: #e80eee;
+     font-weight: bold;
+     font-family: "Comic Sans MS";
+     font-size: 24px;
+     margin: 40px auto;
+     justify-content: center;
+}
+ .inputouter input{
+     background: transparent;
+     border: 0;
+     outline: 0;
+     border-left: 2px solid #fff;
+     margin: 5px;
+     padding: 0 10px;
+     color: #fff;
+     font-size: 16px;
+     font-family: "Comic Sans MS";
+}
+ .inputouter input::placeholder{
+     color: #fdffe9;
+     font-family: "Comic Sans MS";
+}
+ .inputouter{
+     background-color: #e80eee;
+     padding: 6px;
+     border-radius: 8px;
+     margin: 0 10px;
+}
+ .confirmbtn{
+     margin: auto;
+     display: block;
+}
+ .confirmbtn img{
+     height: 80px;
+     width: auto;
+     cursor: pointer;
+     margin: auto;
+}
+ .presale_page footer{
+     border-top: none;
+}
+ .progressouter{
+     text-align: center;
+     width: 80%;
+     margin: 40px auto;
+     max-width: 800px;
+}
+ .progressval{
+     color: #3b2c66;
+     font-weight: bold;
+     font-size: 18px;
+}
+ .progressval span{
+     color: #09c5d6;
+}
+/*progress bar*/
+ .meter {
+     box-sizing: content-box;
+     height: 20px;
+    /* Can be anything */
+     position: relative;
+     margin-top: 6px;
+     background: #3b2c66;
+     border-radius: 8px;
+     padding: 5px;
+}
+ .meter > span {
+     display: block;
+     height: 100%;
+     border-radius: 5px;
+     background-image: linear-gradient(to right ,#09c5d6 10%,#e98aff 60%,#edfd92 100%);
+     position: relative;
+     overflow: hidden;
+}
+ .meter > span:after, .animate > span > span {
+     content: "";
+     position: absolute;
+     top: 0;
+     left: 0;
+     bottom: 0;
+     right: 0;
+     z-index: 1;
+     animation: move 2s linear infinite;
+     border-radius: 3px;
+     overflow: hidden;
+}
+ 

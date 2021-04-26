@@ -1,0 +1,155 @@
+ @media(min-width:1200px) and (max-width:1500px){
+     .mynav{
+         padding-top: 12%;
+         max-width: 340px;
+    }
+}
+ @media(min-width:1024px) and (max-width:1200px){
+     .mynav{
+         padding-top: 20%;
+         max-width: 340px;
+    }
+     .nav-item{
+         padding: 20px 30px 20px;
+    }
+     .presaleimg{
+         position: absolute;
+         bottom: 0;
+         left: 50%;
+         transform:translateX(-50%);
+         width: 70%;
+         max-width: 500px;
+    }
+    /*prresale*/
+     .presale_page .main-wrapper{
+         background-size: 250px , 250px;
+    }
+}
+ @media(min-width:992px) and (max-width:1024px){
+     .mynav{
+         padding-top: 20%;
+         max-width: 340px;
+    }
+     .nav-item{
+         padding: 20px 30px 20px;
+    }
+     .presaleimg{
+         position: absolute;
+         bottom: 0;
+         left: 50%;
+         transform:translateX(-50%);
+         width: 70%;
+         max-width: 500px;
+    }
+    /*prresale*/
+     .presale_page .main-wrapper{
+         background-size: 250px , 250px;
+    }
+     .presaletext{
+         height: 70px;
+    }
+}
+ @media(min-width:768px) and (max-width:991px){
+     .mynav{
+         padding-top: 20%;
+         max-width: 340px;
+    }
+     .nav-item{
+         padding: 20px 30px 20px;
+    }
+     .presaleimg{
+         max-width: 500px;
+    }
+     .tuskimg{
+        width: 60%;
+    }
+    /*prresale*/
+     .presale_page .main-wrapper{
+         background-size: 250px , 250px;
+    }
+     .presaletext{
+         height: 70px;
+    }
+}
+ @media(min-width:448px) and (max-width:767px){
+     .mynav{
+         padding-top: 50%;
+         max-width: 300px;
+    }
+     .nav-item{
+         padding: 14px 30px 14px;
+    }
+     .nav-item a{
+        font-size: 16px
+    }
+     .presaleimg{
+         max-width: 500px;
+         bottom: 100px;
+    }
+     .tuskimg{
+        width: 90%;
+    }
+    /*prresale*/
+     .presale_page .main-wrapper{
+         background-size: 150px , 150px;
+         background-position:3% 42%, 97% 42%;
+    }
+     .presaletext{
+         height: auto;
+         width: 80%;
+    }
+     .pertuskinfo{
+        margin-bottom: 60px
+    }
+     .conectbtn{
+         height: 40px;
+         margin-bottom: 10px;
+    }
+     .confirmbtn img{
+         height: 60px 
+    }
+}
+ @media(max-width:447px){
+     .mynav{
+         padding-top: 250px;
+         max-width: 300px;
+    }
+     .nav-item{
+         padding: 14px 30px 14px;
+    }
+     .nav-item a{
+        font-size: 16px
+    }
+     .presaleimg{
+         width: 90%;
+         max-width: 500px;
+         bottom: 100px;
+    }
+     .tuskimg{
+        width: 90%;
+    }
+    /*prresale*/
+     .presale_page .main-wrapper{
+         background-size: 150px , 150px;
+         background-position:3% 90%, 97% 90%;
+    }
+     .presaletext{
+         height: auto;
+         width: 80%;
+         margin-top: 40px;
+    }
+     .pertuskinfo{
+        margin-bottom: 60px
+    }
+     .conectbtn{
+         height: 40px;
+         margin-bottom: 10px;
+    }
+     .confirmbtn img{
+         height: 60px 
+    }
+     .inputbxouter{
+        flex-direction: column;
+    }
+}
+ 
