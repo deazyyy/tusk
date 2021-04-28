@@ -44,6 +44,7 @@
 }
  img{
      display: block;
+     height: auto;
 }
  body{
      font-size: 14px;
@@ -62,9 +63,14 @@
 }
  .home_page{
      background: url("../images/BG.png");
+     background-size: cover;
+     background-position: top center;
 }
  .presale_page{
      background: url("../images/BG2.png");
+     background-size: cover;
+     background-position: top center;
+     position: relative;
 }
  p{
      font-size: 18px;
@@ -77,6 +83,7 @@
      display: block;
      margin: auto;
      margin-top: 50px;
+     height: auto;
 }
  .presaleimg{
      position: absolute;
@@ -87,7 +94,9 @@
      max-width: 700px;
      display: block;
      margin: auto;
-     z-index: 5 
+     z-index: 5 ;
+     cursor: pointer;
+     height: auto;
 }
  .mynav{
      position: absolute;
@@ -137,6 +146,7 @@
      margin: 10px 14px;
 }
  .social-icon img{
+     height: auto;
      width: 60px;
      margin: 10px;
      cursor: pointer;
@@ -166,9 +176,9 @@
      margin-bottom: 40px;
      margin-top: 60px;
 }
- .presale_page{
-     background: url("../images/BG2.png");
-     position: relative;
+.conectbtn img{
+     height: 100%;
+     width: auto;
 }
  .conectbtn{
      height: 50px;
