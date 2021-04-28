@@ -165,4 +165,15 @@
         flex-direction: column;
     }
 }
+
+
+ @media(max-height:600px){
+    .home_page{
+        min-height: 160vh;
+    }
+    .presale_page .main-wrapper{
+        min-height: 160vh;
+    }
+   
+}
  
