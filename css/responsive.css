@@ -167,7 +167,7 @@
 }
 
 
- @media(max-height:600px){
+ @media(max-height:640px){
     .home_page{
         min-height: 160vh;
     }
